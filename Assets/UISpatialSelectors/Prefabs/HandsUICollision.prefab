@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6133344132435340886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4206696956056183779}
+  - component: {fileID: 5356693109699834178}
+  - component: {fileID: 2713012591234764031}
+  m_Layer: 0
+  m_Name: HandsUICollision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206696956056183779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133344132435340886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5356693109699834178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133344132435340886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530faf594e0304a51a14b4f11a3f6d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trackedKeyPoses: 511
+  _keyPointFilterLevel: 2
+  _PoseFilterLevel: 2
+--- !u!114 &2713012591234764031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133344132435340886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d9b164e0d022c479f421bbbd8e71d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fingerPrefab: {fileID: 8224434081387849271, guid: 0f46c606abc6d5040b8da9a685e6f7e0,
+    type: 3}
+  _hoverRadius: 0.3
+  _clickerRadius: 0.05
+  _indexEnabled: 1
+  _thumbEnabled: 0
+  _middleEnabled: 0
+  _ringEnabled: 0
+  _pinkyEnabled: 0
